@@ -15,7 +15,7 @@ const EventCard = (props: EventsProps) => {
       <img
         src={imgUrl}
         alt="excos"
-        className="w-[100%] h-[100%] object-contain"
+        className="w-[100%] h-[230px] object-contain"
       />
       <div className="text-center font-Anaheim text-gray-700 py-2">{desc}</div>
     </div>

@@ -135,6 +135,6 @@ export const eventData = [
   {
     id: "lucky",
     imgUrl: images.env,
-    desc: "Comr. Oduah Lucky, Our representative at the central level (OYF). He was duly elected into office on the 14/01/2023.",
+    desc: "Comr. Oduah Lucky, Our representative at the central level (OYF). Elected on 14/01/2023.",
   },
 ];
