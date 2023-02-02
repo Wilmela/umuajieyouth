@@ -48,16 +48,18 @@ const About = () => {
           development of their community and ensure a bright future for
           generations to come. <br />
           <br />
-          On December 21, 2022, the organization held her first democratic
+          On December 10, 2022, the organization held her first democratic
           election and elected her first set of executives to lead the
-          association. These leaders are committed to furthering the
-          association&apos;s goals and ensuring that its programs have a
-          positive impact on the lives of young people in the community. The
-          organization strives to create a supportive environment for youth,
-          where they can access resources, network with peers and engage in
-          meaningful activities. It also aims to advocate for the rights of
-          young people and promote their participation in decision-making
-          processes that affect their lives. <br />
+          association. While the organization's first Omoku Youth Federation
+          Executive, Comr. Oduah Lucky was elected into office on the January 14
+          2023. These leaders are committed to furthering the association&apos;s
+          goals and ensuring that its programs have a positive impact on the
+          lives of young people in the community. The organization strives to
+          create a supportive environment for youth, where they can access
+          resources, network with peers and engage in meaningful activities. It
+          also aims to advocate for the rights of young people and promote their
+          participation in decision-making processes that affect their lives.{" "}
+          <br />
           <br />
           If you are interested in learning more or supporting the community,
           please visit our website and connect with us through our social media

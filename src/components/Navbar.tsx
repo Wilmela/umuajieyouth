@@ -49,7 +49,7 @@ const Navbar = () => {
           className="font-Mont [flex:1] text-green-800 text-2xl"
           rel="no-referrer no-opener"
         >
-          UCUA
+          UCYA
         </a>
 
         {/* Desktop */}
@@ -63,7 +63,7 @@ const Navbar = () => {
               className="hover:bg-[#899d44] w-16 h-16 rounded-full flex items-center justify-center duration-300 ease-in"
             >
               <p
-                className={`font-Anaheim font-bold text-xl text-[#283724] hover:text-white ${
+                className={`font-Anaheim font-bold text-xl text-green-800 hover:text-white ${
                   isSelected === link.id && "border-b border-green-800"
                 }`}
               >

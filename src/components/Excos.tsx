@@ -9,7 +9,7 @@ type ExcoCardProps = {
 const ExcoCard = (props: ExcoCardProps) => {
   const { src, name, position } = props;
   return (
-    <div className="rounded-md flex flex-col items-center justify-center bg-white p-4 shadow-lg group relative cursor-pointer hover:scale-x-105 duration-300 ease-in my-2 card">
+    <div className="rounded-md flex flex-col items-center justify-center bg-white p-4 shadow-lg group relative cursor-pointer hover:scale-x-105 duration-300 ease-in my-2 card h-[350px] xs:h-auto">
       <img src={src} alt="bg" className="w-[100%] h-[100%] object-cover" />
 
       <div className="w-[85%] bg-[rgba(0,0,0,0.8)] p-2 rounded-lg hidden group-hover:block cursor-pointer absolute bottom-5">
@@ -21,11 +21,10 @@ const ExcoCard = (props: ExcoCardProps) => {
 };
 const Excos = () => {
   return (
-    <section data-aos='fade-right' id="excos" className={styles.sectionSpacing}>
+    <section data-aos="fade-right" id="excos" className={styles.sectionSpacing}>
       <p className={`${styles.headingText} mb-8`}>Youth Excos and Members</p>
 
       <div>
-        
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-col-3 lg:grid-cols-4 gap-4 cursor-pointer">
           {excosData.map((exco) => (
             <ExcoCard

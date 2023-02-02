@@ -130,6 +130,11 @@ export const eventData = [
   {
     id: "excos",
     imgUrl: images.excos,
-    desc: "The official election day of the community executives. 10/12/2022 at about 10:46 am",
+    desc: "The official election day of the community executives. 10/12/2022 at about 10:46 am.",
+  },
+  {
+    id: "lucky",
+    imgUrl: images.env,
+    desc: "Comr. Oduah Lucky, Our representative at the central level (OYF). He was duly elected into office on the 14/01/2023.",
   },
 ];

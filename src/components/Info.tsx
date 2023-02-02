@@ -11,11 +11,11 @@ const EventCard = (props: EventsProps) => {
   const { imgUrl, desc } = props;
 
   return (
-    <div data-aos="fade-left" id='info' className="flex flex-col rounded-md p-4 bg-white">
+    <div data-aos="fade-left" id='info' className="flex flex-col rounded-md p-4 bg-white h-[350px]">
       <img
         src={imgUrl}
         alt="excos"
-        className="w-[100%] h-[100%] object-cover"
+        className="w-[100%] h-[100%] object-contain"
       />
       <div className="text-center font-Anaheim text-gray-700 py-2">{desc}</div>
     </div>
