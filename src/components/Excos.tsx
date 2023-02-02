@@ -23,6 +23,9 @@ const Excos = () => {
   return (
     <section data-aos="fade-right" id="excos" className={styles.sectionSpacing}>
       <p className={`${styles.headingText} mb-8`}>Youth Excos and Members</p>
+      <p className={styles.subHeadingText}>
+        Meet the first democratically elected youth executives.
+      </p>
 
       <div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-col-3 lg:grid-cols-4 gap-4 cursor-pointer">
@@ -43,7 +46,7 @@ const Excos = () => {
           {members.map((member) => (
             <div
               key={member.id}
-              className="bg-green-600 hover:bg-green-500 p-2 rounded-lg w-full md:w-content text-center"
+              className="bg-green-800 hover:bg-green-500 p-2 rounded-lg w-full md:w-content text-center"
             >
               <p className="text-white font-Overpass">{member.name}</p>
             </div>

@@ -45,8 +45,6 @@ const Contact = () => {
         import.meta.env.VITE_APP_PUBLIC_KEY
       );
 
-    
-
       toast.success("Email sent successful");
 
       return setToSend({
@@ -67,6 +65,9 @@ const Contact = () => {
       className={`${styles.sectionSpacing} flex flex-col items-center justify-center w-full xs:w-[300px] sm:w-[450px] md:w-[600px]`}
     >
       <p className={styles.headingText}>Contact Us</p>
+      <p className={styles.subHeadingText}>
+        We would love to hear from you. Feel free to leave a message.
+      </p>
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-4 w-full">
         <FormInputGroup
@@ -79,7 +80,7 @@ const Contact = () => {
         />
 
         <FormInputGroup
-          label="Email or Phone"
+          label="Email"
           placeholder="Enter your user email"
           value={toSend.user_email}
           name="user_email"

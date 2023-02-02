@@ -80,7 +80,7 @@ export const excosData = [
   },
   {
     id: "women",
-    name: "Comr. Fynboi Godcares",
+    name: "Comr. Fyneboi Godcares",
     position: "Women Leader",
     imgUrl: images.bg3,
   },
@@ -118,7 +118,7 @@ export const members = [
   },
   {
     id: "muenya",
-    name: "Comr. FyneBoi Chukwumuenya",
+    name: "Comr. Fyneboi Chukwumuenya",
   },
   {
     id: "ajie",
@@ -136,5 +136,10 @@ export const eventData = [
     id: "lucky",
     imgUrl: images.env,
     desc: "Comr. Oduah Lucky, Our representative at the central level (OYF). Elected on 14/01/2023.",
+  },
+  {
+    id: "security",
+    imgUrl: images.pro,
+    desc: "Comr. Felix was nominated for membership of the Omoku Security on 29/01/2023.",
   },
 ];

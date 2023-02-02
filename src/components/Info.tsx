@@ -26,6 +26,7 @@ const Info = () => {
   return (
     <section id="info" className={`${styles.sectionSpacing} flex flex-col `}>
       <p className={styles.headingText}>Events Gallery</p>
+      <p className={styles.subHeadingText}>For transparency, accessibility and accountability, critical events and decisions will be made public here.</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {eventData.map((event) => (
           <EventCard key={event.desc} imgUrl={event.imgUrl} desc={event.desc} />

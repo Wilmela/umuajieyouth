@@ -1,6 +1,8 @@
 export const styles = {
   headingText:
-    "font-Mont text-3xl lg:text-4xl mb-6 text-gray-800 mb-4 md:mb-6 xl:mb-12",
+    "font-Mont text-3xl lg:text-4xl mb-6 text-gray-700 mb-2 md:mb-4 xl:mb-8",
+  subHeadingText:
+    "font-Anaheim font-light text-green-800 text-xl md:text-2xl mb-6 text-left",
   descriptionText: "font-Overpass text-xl font-300 text-gray-700",
   sectionSpacing: "py-4 sm:py-8 md:py-12 lg:py-16 pt-20",
   input:

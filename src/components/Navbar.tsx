@@ -41,7 +41,7 @@ const Navbar = () => {
       <div
         className={`flex justify-between items-center h-[70px] ${
           showNav &&
-          "fixed top-0 left-0 right-0 px-4 md:px-8 lg:px-12 xl:px-24 bg-white z-50 animate-slideDown"
+          "fixed top-0 left-0 right-0 px-4 md:px-8 lg:px-12 xl:px-28 bg-white z-50 animate-slideDown"
         }`}
       >
         <a

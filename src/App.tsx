@@ -21,8 +21,12 @@ const App = () => {
         />
 
         <Hero />
+        <div className="w-full bg-gray-200 flex flex-col items-center ">
+          <div className="px-4 md:px-8 lg:px-12 max-w-[1240px] flex flex-col items-center justify-center">
+            <About />
+          </div>
+        </div>
         <div className="px-4 md:px-8 lg:px-12 max-w-[1240px] flex flex-col items-center justify-center">
-          <About />
           <Excos />
           <Info />
         </div>

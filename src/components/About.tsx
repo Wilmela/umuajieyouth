@@ -33,6 +33,10 @@ const About = () => {
         <p className={`${styles.headingText} mb-8`}>
           About Umu-Ajie Community Youth Association:
         </p>
+        <p className={styles.subHeadingText}>
+          Take a moment and learn about our wonderful, and outstanding community youth.
+        </p>
+
         <p className={styles.descriptionText}>
           Umu-Ajie Community Youth Association is a non-profit organization
           founded in 2015 with the aim of promoting the welfare of young people
